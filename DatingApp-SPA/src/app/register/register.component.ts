@@ -17,7 +17,7 @@ export class RegisterComponent implements OnInit {
       console.log(this.model);
   }
   cancel() {
-    console.log('cancelled');
+    console.log('cancelledd');
 }
 
 }
