@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BsDropdownModule, TabsModule, BsDatepickerModule } from 'ngx-bootstrap';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 import { AppComponent } from './app.component';
 import { HttpClient } from 'selenium-webdriver/http';
@@ -40,6 +41,7 @@ export function tokenGetter() {
 
 @NgModule({
    declarations: [
+      TimeAgoPipe,
       AppComponent,
       NavComponent,
       HomeComponent,
