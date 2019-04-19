@@ -12,7 +12,7 @@ export class MemberlistResolver implements Resolve<User[]> {
 
 
     pageNumber = 1;
-    pageSize = 5;
+    pageSize = 11;
 
     constructor(private userService: UserService, private router: Router, private alertify: AlertifyService) {}
 
